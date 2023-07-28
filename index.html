@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.4 JS Functions </title>
+    <link rel="stylesheet"  href="./CSS/style.css">
+</head>
+<body>
+<h1 style=text-align:center;>2.4 JS Functions</h1>
+<h2 style=text-align:center;>Below are functions that will return a valuye you put in</h2>
+<div>
+    <p>
+        Q1. Create a function called fizzBuzz that would print the result based on the following conditions:
+        If the number is divisible by 3, print 'Fizz'.
+        If the number is divisible by 5, print 'Buzz'.
+        If the number is divisible by 3 AND 5, print 'FizzBuzz'.
+        If the number is not divisible by 3 or 5, print 'Pop'.<br>
+
+        Use the following test scenarios:
+        (49);Pop--------------
+        (55);Buzz--------------
+        (120);FizzBuzz--------------
+        (9999);Fizz--------------
+        
+    </p>
+</div>
+<div>
+    <blockquote>
+    <label for="numb" >Enter a Number</label>
+    <input type="text" onfocus="this.value=''" id="numb">
+    <button onclick= fizzBuzz()>FizzBuzzPop Me</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <p id="FizzBuzzPopResult" style=display:inline;></p>
+    </blockquote>
+</div>
+<br>
+<br>
+<br>
+
+
+<div>
+    <p>
+        Q2. Create a function called averager that gets the average of an array.
+        const prices = [12.99, 17.75, 88.12, 111.11, 77.09, 53.45];
+        //let result = averager(prices);
+        //console.log(result);
+    </p>
+</div>
+<div>
+    <blockquote>
+    <button onclick= averager()>Avg my Prices</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <p id="ap" style=display:inline;></p>
+    </blockquote>
+</div>
+<br>
+<br>
+<br>
+<div>
+    <p>
+        Q3. Create functions that would convert temperature from Celsius to Fahrenheit and Kelvin. Round the result to two decimal places. 
+
+        celToFah(37.5);
+        celToFah(-40);
+        celToFah(0);
+        celToFah(100);                                          
+        celToKel(173.13);
+        celToKel(-13);
+    </p>
+</div>
+<div class="divtabs">
+    <blockquote>
+    <label for="deg" >Enter Celsius Temperature</label>
+    <input type="text" onfocus="this.value=''"" id="deg">°C
+    <div>
+        
+                <table>
+                    <tr>
+                        <th><button class="tbutts" onclick = c2f()>Fahrenheit</button></th>
+                        <th><button class="tbutts" onclick = c2k()>Kelvin</button></th>
+                    </tr>
+                    <tr>
+                        <td id="fah"></td>
+                        <td id="kev"></td>
+                    </tr>
+                </table>
+        
+    </div>
+    </blockquote>
+</div>
+
+<div class="divtabs">
+    <blockquote>
+    <label for="deg2" >Enter Fahrenheit Temperature</label>
+    <input type="text" onfocus="this.value=''"" id="deg2">°F
+    <div>
+        
+                <table>
+                    <tr>
+                        <th><button class="tbutts" onclick = f2c()>Celsius</button></th>
+                        <th><button class="tbutts" onclick = f2k()>Kelvin</button></th>
+                    </tr>
+                    <tr>
+                        <td id="cel"></td>
+                        <td id="kev2"></td>
+                    </tr>
+                </table>
+        
+    </div>
+    </blockquote>
+</div>
+<br>
+<br>
+<br>
+<div>
+    <p>
+        Q4. Create a function called pow that gets two values and computes for the power value of the two numbers
+        pow(2, 3) -> 2 * 2 * 2 -> 8
+
+        Note: You can not use Math.pow function. You need to write your own implementation of the function.
+    
+    </p>
+</div>
+
+
+<div class="divtabs">
+    <blockquote>
+        <p> Multiple the powers of numbers </p>
+    <label for="ppow1" >Enter a Number</label>
+    <input type="text" onfocus="this.value=''"" id="ppow1">
+
+    <label for="ppow2" >Enter a Number</label>
+    <input type="text" onfocus="this.value=''"" id="ppow2">
+    <div>
+    
+                <table>
+                    <tr>
+                        <th><button class="tbutts" onclick = listPow()>Display the Calulation</button></th>
+                        <th><button class="tbutts" onclick = pow()>Calulate the Numbers</button></th>
+                    </tr>
+                    <tr>
+                        <td id="bang"></td>
+                        <td id="bang2"></td>
+                    </tr>
+                </table>
+        
+    </div>
+    </blockquote>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+
+
+<script src="./JS/index.js"></script>
+</html>

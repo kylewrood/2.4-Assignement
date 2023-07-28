@@ -1,0 +1,50 @@
+#FizzBuzzPopResult{
+    color:red;
+    font-size:50px;
+    font-weight:bold;
+}
+
+#ap{
+    color:blue;
+    font-size:50px;
+    font-weight:bold;
+}
+
+.divtabs{
+    display:inline-block;
+}
+
+
+.tbutts{
+     width:200px;
+}
+
+#fah{
+    text-align:center;
+}
+#kev{
+    text-align:center;
+}
+
+#cel{
+    text-align:center;
+}
+#kev2{
+    text-align:center;
+}
+
+#deg{
+    width:25px;
+}
+
+#deg2{
+    width:25px;
+}
+
+#bang, #bang2{
+    text-align:center;
+}
+
+#ppow1, #ppow2{
+    width:25px;
+}
